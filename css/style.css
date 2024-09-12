@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+.navBar {
+    margin:0;
+    padding:0;
+    background-color: rgba(196, 197, 243, 0.4);
+    align-items: center;
+    text-align: center;
+}
+.navElement{
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navBar :hover{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#body1 {
+    background-color: rgb(195, 190, 255);
+}
+
+#body2 {
+    background-color: rgb(195, 190, 255);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.artBanner{
+    width: 1300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.artBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    transform: translate(60px, 0px);
+    padding: 0px;
+    margin: 0px;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-49.5%, -50%);
+    background-size: cover;
+    scale: 102%;
+}
+.sig{
+    color: white;
+    text-align: center;
+    transform: translate(0, 950%);
+}
+
+.groups{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transform: translate(0, -5%);
+}
+
+.groupDisplayBox{
+    width: 310px;
+    height:90px;
+    background-color:rgb(195, 190, 255);
+    margin: 30px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    transition: scale 0.3s ease;
+}
+
+.groupDisplayBox:hover {
+    scale: 106%;
+}
+
+.groupElement{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    height: 100%;
+    transition: color 0.3s ease;
+    
+}
+
+.groupDisplayBox:hover .groupElement {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.returnArea{
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    padding: 5px;
+}
+
+.returnArea a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+.returnArea :hover{
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+}
+
+.returnArea2{
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    text-decoration: none;
+    height: 20px;
+}
+
+.returnArea2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+.returnArea2 :hover{
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.artRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.artWindow{
+    width: 450px;
+    height: 550px;
+    margin: 10px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: opacity 0.1s ease-in;
+}
+
+.artWindow:hover{
+    animation: smallChange 2s ease-in-out infinite;
+    background-color: rgba(255, 228, 196, 0.177);
+    opacity: 0.9;
+    transition: opacity 0.1s ease-in;
+}
+
+.artWindow img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artWindow img:hover{
+    width: 100%;
+    height: 100%;
+    animation: smallChange 2s ease-in-out infinite;
+}
+
+.artWindowLong {
+    width: 1390px;
+    height: 550px;
+    margin: 10px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: opacity 0.2s ease-in;
+}
+
+.artWindowLong:hover{
+    animation: smallChange 2s ease-in-out infinite;
+    background-color: rgba(255, 228, 196, 0.177);
+    opacity: 0.9;
+    transition: opacity 0.2s ease-in;
+}
+
+.artWindowLong img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artWindowLong img:hover{
+    width: 100%;
+    height: 100%;
+    animation: smallChange 2s ease-in-out infinite;
+}
+
+
+@keyframes smallChange {
+    0%   { transform:scale(100%); }
+    50%  { transform:scale(100.5%);}
+    100% { transform:scale(100%); }
+  }
+
+
+.desc{
+    text-align: center;
+    color:black;
+    font-size: 15px;
+    height: 15px;
+    padding: 15px;
+}
+
+.musicHolder{
+   text-align: center;
+   padding: 10px;
+   font-size: 18px;
+}
+
+.musicText {
+    margin-bottom: 2px;
+    display: block; 
+}
+
+.musicTextbig{
+    margin-bottom: 2px;
+    display: block; 
+    font-size: 35px;
+}
+
+.logo{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.instagramHolder{
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.instagramHolder img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    object-fit:scale-down;
+    filter: invert(0);
+    transition: filter 0.3s ease-in-out;
+}
+.instagramHolder img:hover{
+    filter: invert(1);
+    animation: smallChange 2s ease-in-out infinite;
+}
+
+.aboutInfo{
+    display: block;
+
+}
+
+.name{
+    font-size: 20rem;
+    text-align: left;
+}
+
+.infoAfter{
+    font-size: 8rem;
+    text-align: right;
+}
+.infoAfterSmall{
+    font-size: 4rem;
+    text-align: right;
+}
+
+.fullImage{
+    width: 710px;
+    height: 710px;
+    object-fit: scale-down;
+    padding: 0%;
+}
+.viewer{
+    display: flex;
+    text-align: left;
+    margin: 1rem;
+}
+
+.artDesc{
+    width: 200px;
+    padding: 1rem;
+    font-size: 30px;
+    transform: translate(0,30%);
+}
+
+#description{
+    font-size: 20px;
+}
+
+.prevnextButtons{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transform: translate(0,750%);
+    position: fixed;
+    border-radius: 100%;
+    border-width: 0px;
+    font-size: 0px;
+    background-color: rgb(162, 155, 230);
+    transition: all 0.1s ease-in;
+
+}
+
+
+#next{
+    transform: translate(170px,750%);
+}
+
+#next:hover{
+    transform: translate(170px,750%) scale(1.3);
+    background-color: rgb(172, 165, 235);
+}
+
+#prev{
+    transform: translate(0px,750%);
+}
+
+#prev:hover{
+    transform: translate(0px,750%) scale(1.3);
+    background-color: rgb(172, 165, 235);
+}
+
+
+.buttonHolder{
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
+
+.arrowsPicL{
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    visibility: hidden;
+}
+
+.arrowsPicR{
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    visibility: hidden;
+}
+
+.buttonHolder:hover .arrowsPicL {
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonHolder:hover .arrowsPicR {
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Lightbox Styles */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    
+}
+
+.lightbox-content {
+    margin-top: 27rem;
+    max-width: 150%;
+    max-height: 150%;
+    object-fit: contain;
+}
+
+.lightbox-contentB {
+    margin-top: 4rem;
+    max-width: 105%;
+    max-height: 105%;
+    object-fit: contain;
+}
+
+
+.lightboxDesc {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#image:hover{
+    cursor: pointer;
+
+}
