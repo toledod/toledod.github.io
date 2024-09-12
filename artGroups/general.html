@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <title>David Toledo</title>
+    </head>
+    <div class="navBar">
+        <a href = "../index.html" class="navElement"> home </a>
+        <a href = "../art.html" class ="navElement"> art </a>
+        <a href = "../music.html"class="navElement"> music </a>
+        <a href = "../aboutme.html" class="navElement"> about me </a>
+    </div>
+    <body id = "body1">
+        <div class = "desc">
+            older work
+        </div>
+        <div class = "artHolder">
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/photo2.png" onclick="openImage(0)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/laye2-2.png" onclick="openImage(1)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/concalma.png" onclick="openImage(2)"/>
+                </div>
+
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/Mex5.png" onclick="openImage(3)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/mexArt1.png" onclick="openImage(4)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/Mexrt4.png" onclick="openImage(5)"/>
+                </div>
+
+            </div>
+            <div class = "artRow">
+                <div class = "artWindowLong">
+                    <img class = "artPieces" src="../images/general/handsoutLONG.png" onclick="openImage(6)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/color thing.png" onclick="openImage(7)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/album cover2.png" onclick="openImage(8)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/brokenLight.png" onclick="openImage(9)"/>
+                </div>
+
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/hymPost.png" onclick="openImage(10)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/benchWithSister.png" onclick="openImage(11)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/loveyourself.png" onclick="openImage(12)"/>
+                </div>
+
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindowLong">
+                    <img class = "artPieces" src="../images/general/yearn.png" onclick="openImage(13)"/>
+                </div>
+            </div>
+            
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/stars that shine.png" onclick="openImage(14)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/the stars in my room.png" onclick="openImage(15)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/general/CTAtrain.png" onclick="openImage(16)"/>
+                </div>
+            </div>
+
+        </div>
+        <div class = "returnArea">
+            <a href="../art.html"> return </a>
+        </div>
+
+    
+    </body>
+</html>
+
+<script>
+function openImage(index) {
+    window.location.href = `viewerGeneral.html?index=${index}`;
+}
+
+</script>

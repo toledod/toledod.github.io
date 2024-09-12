@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <title>David Toledo</title>
+    </head>
+    <div class="navBar">
+        <a href = "favorite.html" class="navElement"> return </a>
+        <a href = "../art.html" class ="navElement"> art </a>
+        <a href = "../music.html"class="navElement"> music </a>
+        <a href = "../aboutme.html" class="navElement"> about me </a>
+    </div>
+
+    <body id ="body2" >
+        <div class="viewer">
+            <div class="buttonHolder">
+                <button id="prev" class = "prevnextButtons" role = "button"> 
+                    <img class = "arrowsPicL" src= "../images/leftArrow.png">
+                </button>
+            </div>
+            
+            <img id="image" class="fullImage" src="" alt="Image" onclick="openLightbox()">
+            <div class = "artDesc">
+                <p id="title"></p>
+                <p id="description"></p>
+            </div>
+            <div class="buttonHolder">
+                <button id="next" class = "prevnextButtons" role = "button"> 
+                    <img class = "arrowsPicR" src= "../images/rightArrow.png">
+                </button>
+            </div>
+        </div>
+
+        <div id="lightbox" class="lightbox">
+            <img id="lightboxImage" src="">
+        </div>
+    </body>
+    
+
+</html>
+
+<script src="javascript/favjs.js"></script>

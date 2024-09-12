@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <title>David Toledo</title>
+    </head>
+    <div class="navBar">
+        <a href = "../index.html" class="navElement"> home </a>
+        <a href = "../art.html" class ="navElement"> art </a>
+        <a href = "../music.html"class="navElement"> music </a>
+        <a href = "../aboutme.html" class="navElement"> about me </a>
+    </div>
+
+    <body id = "body1">
+        <div class="artBanner">
+           <img src = "../images/astbanner.png">
+        </div>
+
+        <div class = "artHolder">
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/sky.png" onclick="openImage(0)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/sky2.png" onclick="openImage(1)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/windGen.png" onclick="openImage(2)"/>
+                </div>
+
+            </div>
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/bridgeCar.png" onclick="openImage(3)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/classRoom.png" onclick="openImage(4)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/flowers2.png" onclick="openImage(5)"/>
+                </div>
+            </div>
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/pinkflwr.png" onclick="openImage(6)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/simple2.png" onclick="openImage(7)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/flower1.png" onclick="openImage(8)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/hope youre well copy.png" onclick="openImage(9)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/sign1.png" onclick="openImage(10)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/peacefulnessBook.png" onclick="openImage(11)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/bluered.png" onclick="openImage(12)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/did you calm downBook.png" onclick="openImage(13)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/greens.png" onclick="openImage(14)"/>
+                </div>
+            </div>
+            <div class = "artRow">
+                <div class = "artWindowLong">
+                    <img class = "artPieces" src="../images/youwouldhavelikedthese2.png" onclick="openImage(15)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/flowerTree.png" onclick="openImage(16)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/barkFlower.png" onclick="openImage(17)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/tornclouds1.png" onclick="openImage(18)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/tree1.png" onclick="openImage(19)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/art11 copy.png" onclick="openImage(20)"/>
+                </div>
+                
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/coudlve.png" onclick="openImage(21)"/>
+                </div>
+            </div>
+
+            <div class = "artRow">
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/cover2ast.png" onclick="openImage(22)"/>
+                </div>
+
+                <div class = "artWindow">
+                    <img class = "artPieces" src="../images/coverBack2.png" onclick="openImage(23)"/>
+                </div>
+            </div>
+
+        </div>
+        <div class = "returnArea">
+            <a href="../art.html"> return </a>
+        </div>
+  
+    </body>
+
+</html>
+
+<script>
+    
+function openImage(index) {
+    window.location.href = `viewerAST.html?index=${index}`;
+}
+</script>
