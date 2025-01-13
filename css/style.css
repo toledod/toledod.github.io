@@ -43,8 +43,8 @@
 }
 
 .artBanner img {
-    width: 2vp;
-    height: 2vp;
+    width: 0.5vp;
+    height: 0.5vp;
     object-fit: scale-down;
     transform: translate(60px, 0px);
     padding: 0px;
