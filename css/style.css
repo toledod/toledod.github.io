@@ -44,7 +44,7 @@
 
 .artBanner img {
     width: 100vw;
-    height: 100vw;
+    height: 70vw;
     object-fit: scale-down;
     transform: translate(60px, 0px);
     padding: 0px;
