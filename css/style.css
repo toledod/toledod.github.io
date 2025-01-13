@@ -37,14 +37,14 @@
 }
 
 .artBanner{
-    width: 1000vw;
+    width: 100vw;
     padding: 0px;
     margin: 0px;
 }
 
 .artBanner img {
-    width: 1000vw;
-    height: 1000vw;
+    width: 100vw;
+    height: 100vw;
     object-fit: scale-down;
     transform: translate(60px, 0px);
     padding: 0px;
