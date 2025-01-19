@@ -12,7 +12,7 @@
     text-align: center;
 }
 .navElement{
-    font-size: 30px;
+    font-size: 5vw;
     color:black;
     text-decoration: none;
     margin-right: 20px;
@@ -40,15 +40,17 @@
     width: 90vw;
     padding: 0px;
     margin: 0px;
+    justify-content: center;
 }
 
 .artBanner img {
     width: 90vw;
     height: 50vw;
     object-fit: scale-down;
-    transform: translate(60px, 0px);
+    transform: translate(4vw, 0vw);
     padding: 0px;
     margin: 0px;
+    justify-content: center;
 }
 
 .video-background {
@@ -57,6 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    background-size: contain;
     overflow: hidden;
     z-index: -1;
 }
@@ -88,8 +91,8 @@ video {
 }
 
 .groupDisplayBox{
-    width: 310px;
-    height:90px;
+    width: 36vw;
+    height:10vw;
     background-color:rgb(195, 190, 255);
     margin: 30px;
     text-align: center;
@@ -102,11 +105,11 @@ video {
 }
 
 .groupElement{
-    font-size: 30px;
+    font-size: 4vw;
     color:rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
-    line-height: 100px;
+    line-height: 8vw;
     display: block;
     height: 100%;
     transition: color 0.3s ease;
@@ -164,8 +167,8 @@ video {
 }
 
 .artWindow{
-    width: 450px;
-    height: 550px;
+    width: 31.25vw;
+    height: 38.194vw;
     margin: 10px;
     background-color: rgba(255, 228, 196, 0);
     transition: opacity 0.1s ease-in;
@@ -191,8 +194,8 @@ video {
 }
 
 .artWindowLong {
-    width: 1390px;
-    height: 550px;
+    width: 96.527vw;
+    height: 38.194vw;
     margin: 10px;
     background-color: rgba(255, 228, 196, 0);
     transition: opacity 0.2s ease-in;
@@ -282,16 +285,39 @@ video {
 }
 
 .name{
-    font-size: 20rem;
+    font-size: 16vw;
     text-align: left;
 }
 
 .infoAfter{
-    font-size: 8rem;
+    font-size: 7vw;
     text-align: right;
 }
+
+.infoAfterLink{
+    font-size: 4vw;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    transition: color ease-in 0.5s;
+    text-align: right;
+    float: right;
+}
+
+.infoAfterLink:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.infoAfterLink:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color ease-in 0.1s;
+}
+
+
 .infoAfterSmall{
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: right;
 }
 
@@ -426,4 +452,21 @@ video {
 #image:hover{
     cursor: pointer;
 
+}
+
+
+.projectTextConstruction{
+    margin-top: 4vw;
+    display: block; 
+    font-size: 4vw;
+    text-align: center;
+    animation: smallColorChange 5s linear infinite;
+}
+
+@keyframes smallColorChange {
+    0%   { color: black; }
+    25%  { color: white}
+    50% {color: rgb(241, 139, 50)}
+    75% {color: white}
+    100% { color: black; }
 }
