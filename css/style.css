@@ -83,6 +83,16 @@ video {
     transform: translate(0, 950%);
 }
 
+
+
+.image-background {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    margin: 2rem 0;
+}
+
+
 .groups{
     display: flex;
     flex-direction: column;
@@ -279,9 +289,11 @@ video {
     animation: smallChange 2s ease-in-out infinite;
 }
 
-.aboutInfo{
-    display: block;
-
+.aboutInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 2rem;
 }
 
 .name{
@@ -290,8 +302,10 @@ video {
 }
 
 .infoAfter{
+    color: rgb(0, 0, 0);
     font-size: 7vw;
     text-align: right;
+    margin: 1vw;
 }
 
 .infoAfterLink{
@@ -302,6 +316,7 @@ video {
     transition: color ease-in 0.5s;
     text-align: right;
     float: right;
+    margin: 1vw;
 }
 
 .infoAfterLink:visited{
@@ -319,6 +334,7 @@ video {
 .infoAfterSmall{
     font-size: 4vw;
     text-align: right;
+    margin: 1vw;
 }
 
 .fullImage{
