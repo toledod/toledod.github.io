@@ -486,3 +486,7 @@ video {
     75% {color: white}
     100% { color: black; }
 }
+
+#abbr{
+    text-decoration: none;
+}
