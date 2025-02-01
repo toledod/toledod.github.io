@@ -490,3 +490,22 @@ video {
 #abbr{
     text-decoration: none;
 }
+
+.hciTitle{
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.hciDescription{
+    font-size: 2vw;
+    text-align: center;
+    margin: 4rem;
+}
+
+.hciAuthors{
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+}
