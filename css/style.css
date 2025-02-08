@@ -509,3 +509,12 @@ video {
     margin-top: 0rem;
     margin-bottom: 4rem;
 }
+
+.hciImage{
+    align-items: center;
+    margin: 0rem;
+    overflow: hidden;
+    background-size: contain;
+    width: 100%;
+    margin-top: 2rem;
+}
