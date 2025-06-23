@@ -53,7 +53,7 @@ const imageData = [
     description: "Modeled by my friend Layevska, who I knew would be perfect for this card. She has helped me the most with my photography projects, and she is always so supportive and interested in my photos. She is such a sweet, kind, and amazing person, and I am glad she was able to model for this card."},
     {src: "../images/loteria/chap3/page8.jpg",title: "El Catrin",
     description: "Modeled by my friend Allen, who I think did an amazing job at modeling for this card. He is a very hard working and dedicated person, and has been a great friend for these 4 years. I am glad he was down to be this card for the project."},
-    {src: "../images/loteria/chap3/page9.jpg",title: "La Sirena",
+    {src: "../images/loteria/chap3/page9.png",title: "La Sirena",
     description: "Modeled by my friend Karina, which I am very grateful to be able to included in this project. She inspired me to look into the independent study option,and overall kinda jumpstarted this project. All though we did not talk too much, I know she is a very kind, so so supportive, and talented person, and I am glad she was able to model for this card."},
     {src: "../images/loteria/chap3/page10.jpg",title: "El Valiente",
     description: "Modeled by my friend Julian, which I believe did an amazing job at modeling this card. One of the realest friends I made, he's so funny and down to earth person, and I am glad he was down to do this card. (ladies hmu for his number)"},
@@ -77,7 +77,7 @@ const imageData = [
     description: "Modeled by my friend Lizzet, I am very grateful that she was down to help me for this card. As mysterious and lowkey as she is, she is a very kind and supportive person which I am very glad to have met. I am so grateful to be able to include her in this project."}, 
     {src: "../images/loteria/chap3/Artboard 9.jpg",title: "All Cards",
     description: "All of the cards as they were printed for the custom game of loteria."},
-    {src: "../images/loteria/chap1/Cover2.jpg",title: "Back Cover",
+    {src: "../images/loteria/intro/Cover2.jpg",title: "Back Cover",
     description: " "}
     ];
     
