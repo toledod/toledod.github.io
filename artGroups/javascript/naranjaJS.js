@@ -1,43 +1,43 @@
 const imageData = [
-    { src: "../images/deNaranja/Orange1.jpeg", title: "untitled", description: "Orange sunset on a snowy field." },
-    { src: "../images/deNaranja/Orange2.jpeg", title: "untitled", description: "Orange scarffff" },
-    { src: "../images/deNaranja/Orange3.jpeg", title: "untitled", description: "Orange house!" },
+    { src: "../images/deNaranja/Orange1.jpg", title: "untitled", description: "Orange sunset on a snowy field." },
+    { src: "../images/deNaranja/Orange2.jpg", title: "untitled", description: "Orange scarffff" },
+    { src: "../images/deNaranja/Orange3.jpg", title: "untitled", description: "Orange house!" },
 
-    { src: "../images/deNaranja/Orange4.jpeg" , title: "untitled", description: "gradient added" },
-    {src: "../images/deNaranja/Orange5.jpeg" , title: "untitled", description: "RIP frijolito"}, 
-    {src: "../images/deNaranja/Orange6.jpeg", title: "untitled"
+    { src: "../images/deNaranja/Orange4.jpg" , title: "untitled", description: "gradient added" },
+    {src: "../images/deNaranja/Orange5.jpg" , title: "untitled", description: "RIP frijolito"}, 
+    {src: "../images/deNaranja/Orange6.jpg", title: "untitled"
     , description: "Cheeto's paw" }, 
-    {src: "../images/deNaranja/Orange7.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange7.jpg", title: "untitled"
     , description: "Cheeto"},
-    {src: "../images/deNaranja/Orange8.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange8.jpg", title: "untitled"
     , description: "idk what this is, but it is orange"}, 
-    {src: "../images/deNaranja/Orange9.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange9.jpg", title: "untitled"
     , description: "more orange"}, 
-    {src: "../images/deNaranja/Orange10.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange10.jpg", title: "untitled"
     , description: "start of the orange balloon series. THe balloon was not orange at first."},
-    {src: "../images/deNaranja/Orange11.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange11.jpg", title: "untitled"
     , description: "orange ballon again"}, 
-    {src: "../images/deNaranja/Orange12.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange12.jpg", title: "untitled"
     , description: "Orange filter"}, 
-    {src: "../images/deNaranja/Orange13.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange13.jpg", title: "untitled"
     , description: "More focus on photoshop creation of an orange background"}, 
-    {src: "../images/deNaranja/Orange14.jpeg", title: "untitled" 
+    {src: "../images/deNaranja/Orange14.jpg", title: "untitled" 
     , description:"brining in my waves"},
-    {src: "../images/deNaranja/Orange15.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange15.jpg", title: "untitled"
     , description:"two trees touching"},
-    {src: "../images/deNaranja/Orange16.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange16.jpg", title: "untitled"
     , description: "definitely more blue than orange but still has orange"}, 
-    {src: "../images/deNaranja/Orange17.jpeg", title: "sailboat"
+    {src: "../images/deNaranja/Orange17.jpg", title: "sailboat"
     , description: "Orange sunset again, with a cool pattern in the sky."}, 
-    {src: "../images/deNaranja/Orange18.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange18.jpg", title: "untitled"
     , description: "orange balloon series continues!"},
-    {src: "../images/deNaranja/Orange19.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange19.jpg", title: "untitled"
     , description: "orange balloon"},
-    {src: "../images/deNaranja/Orange20.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange20.jpg", title: "untitled"
     , description: "orange balloon again"},
-    {src: "../images/deNaranja/Orange22.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange22.jpg", title: "untitled"
     , description: "orange balloon one last time"},
-    {src: "../images/deNaranja/Orange21.jpeg", title: "untitled"
+    {src: "../images/deNaranja/Orange21.jpg", title: "untitled"
     , description: "wavy pattern to end it off"}  
 ];
 
