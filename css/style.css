@@ -36,6 +36,9 @@
     overflow: hidden;
 }
 
+#bodyLoteria {
+    background-color: rgb(255, 255, 255);
+}
 .artBanner{
     width: 90vw;
     padding: 0px;

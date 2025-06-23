@@ -2,7 +2,6 @@ const imageData = [
     { src: "../images/2024summer/2.jpg", title: "gradient (1)", description: "a set of 3 using a gradient techinque I discovered" },
     { src: "../images/2024summer/3.jpg", title: "gradient (2)", description: "a set of 3 using a gradient techinque I discovered" },
     { src: "../images/2024summer/4.jpg", title: "gradient (3)", description: "a set of 3 using a gradient techinque I discovered" },
-
     { src: "../images/2024summer/albcover.png" , title: "untitled", description: "I really liked this clash of colors" },
     {src: "../images/2024summer/chicago2.png" , title: "chicago (1)", description: "I really enjoy my city"}, 
     {src: "../images/2024summer/chciago1.png", title: "chicago (2)"
