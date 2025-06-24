@@ -370,9 +370,11 @@ video {
 
 .artDesc{
     width: 25vw;
+    height: auto;
     padding: 1rem;
     font-size: 10vw;
-    transform: translate(0,30%);
+    transform: translate(0,-10%);
+    translate: 0, 30%;
 }
 
 /* 
@@ -618,7 +620,7 @@ video {
 .prevnextButtons {
     background: none;
     border: none;
-    padding: 0.5rem;
+    padding: 0.2rem;
     max-width: 4vw;
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease;
@@ -634,13 +636,13 @@ video {
     height: auto;
 }
 
-@media (max-width: 30vw) {
+@media (max-width: 28vw) {
     .viewer {
         flex-direction: column;
     }
 
      .prevnextButtons {
-        max-width: 50px;
+        max-width: 5vw;
     }
 
     .artDesc {
