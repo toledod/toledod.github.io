@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Raleway', Arial, sans-serif;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navBar {
     margin:0;
     padding:0;
@@ -351,10 +357,15 @@ video {
     object-fit: scale-down;
     padding: 0%;
 }
-.viewer{
+.viewer {
     display: flex;
-    text-align: left;
-    margin: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping */
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
 }
 
 .artDesc{
@@ -364,7 +375,7 @@ video {
     transform: translate(0,30%);
 }
 
-
+/* 
 .prevnextButtons{
     text-align: center;
     width: 3vw;
@@ -430,7 +441,7 @@ video {
 .buttonHolder:hover .arrowsPicR {
     visibility: visible;
     transition: all 0.3s ease-in-out;
-}
+} */
 
 
 /* Lightbox Styles */
@@ -575,13 +586,75 @@ video {
 }
 
 #title{
-    font-size: 4vw;
-    text-align: center;
+    font-size: 3vw;
+    text-align: left;
     color: black;
 }
 
 #description{
-    font-size: 2vw;
+    font-size: 1.6vw;
     text-align: left;
     color: black;
+}
+
+.fullImage, .lightbox-content {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttonHolder {
+    flex: 0 1 auto;
+}
+.buttonHolder:hover .arrowsPicL {
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonHolder:hover .arrowsPicR {
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.prevnextButtons {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    max-width: 4vw;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.prevnextButtons:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.arrowsPicL, .arrowsPicR {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 30vw) {
+    .viewer {
+        flex-direction: column;
+    }
+
+     .prevnextButtons {
+        max-width: 50px;
+    }
+
+    .artDesc {
+        text-align: left;
+        padding: 0 0rem;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navElement {
+        padding: 0.5rem 0;
+    }
 }

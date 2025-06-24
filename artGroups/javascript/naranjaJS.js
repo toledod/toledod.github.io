@@ -1,6 +1,6 @@
 const imageData = [
     { src: "../images/deNaranja/Orange1.jpg", title: "untitled", description: "Orange sunset on a snowy field." },
-    { src: "../images/deNaranja/Orange2.jpg", title: "untitled", description: "Orange scarffff" },
+    { src: "../images/deNaranja/Oragne2.jpg", title: "untitled", description: "Orange scarffff" },
     { src: "../images/deNaranja/Orange3.jpg", title: "untitled", description: "Orange house!" },
     { src: "../images/deNaranja/Orange4.jpg" , title: "untitled", description: "gradient added" },
     {src: "../images/deNaranja/Orange5.jpg" , title: "untitled", description: "RIP frijolito"}, 
