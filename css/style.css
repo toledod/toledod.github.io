@@ -115,13 +115,13 @@ video {
 }
 
 .groupDisplayBox{
-    width: 36vw;
-    height:10vw;
+    width: 48vw;
+    height: 7vw;
     background-color:rgb(195, 190, 255);
-    margin: 30px;
+    margin: 0px;
     text-align: center;
     transition: background-color 0.3s ease;
-    transition: scale 0.3s ease;
+    transition: scale 0.4s ease;
 }
 
 .groupDisplayBox:hover {
@@ -133,17 +133,31 @@ video {
     color:rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
-    line-height: 8vw;
+    line-height: 4vw;
     display: block;
     height: 100%;
     transition: color 0.3s ease;
-    
+}
+
+.groupElementProject{
+    font-size: 4vw;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    text-size-adjust: 100%;
+    line-height: 10vw;
+    display: block;
+    height: 100%;
+    transition: color 0.3s ease;
 }
 
 .groupDisplayBox:hover .groupElement {
     color: rgb(255, 255, 255);
 }
 
+.groupDisplayBox:hover .groupElementProject {
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -376,75 +390,6 @@ video {
     transform: translate(0,-10%);
 }
 
-/* 
-.prevnextButtons{
-    text-align: center;
-    width: 3vw;
-    height: 3vw;
-    transform: translate(0,750%);
-    position: fixed;
-    border-radius: 100%;
-    border-width: 0px;
-    font-size: 0px;
-    background-color: rgba(226, 222, 255, 0.6);
-    transition: all 0.1s ease-in;
-
-}
-
-
-#next{
-    transform: translate(170px,750%);
-}
-
-#next:hover{
-    transform: translate(170px,750%) scale(1.3);
-    background-color: rgb(199, 192, 255, 0.6);
-}
-
-#prev{
-    transform: translate(0px,750%);
-}
-
-#prev:hover{
-    transform: translate(0px,750%) scale(1.3);
-    background-color: rgb(199, 192, 255, 0.6);
-}
-
-
-.buttonHolder{
-    padding: 1rem;
-    width: 100px;
-    height: 100px;
-    align-content: center;
-}
-
-.arrowsPicL{
-    opacity: 0.4;
-    width: 30px;
-    height: 30px;
-    margin-right: 4px;
-    visibility: hidden;
-}
-
-.arrowsPicR{
-    opacity: 0.4;
-    width: 30px;
-    height: 30px;
-    margin-left: 4px;
-    visibility: hidden;
-}
-
-.buttonHolder:hover .arrowsPicL {
-    visibility: visible;
-    transition: all 0.3s ease-in-out;
-}
-
-.buttonHolder:hover .arrowsPicR {
-    visibility: visible;
-    transition: all 0.3s ease-in-out;
-} */
-
-
 /* Lightbox Styles */
 .lightbox {
     display: none; /* Hidden by default */
@@ -506,6 +451,8 @@ video {
 
 #abbr{
     text-decoration: none;
+    text-decoration-style: none;
+    border: none;
 }
 
 .hciTitle{
