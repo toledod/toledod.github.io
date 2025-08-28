@@ -567,7 +567,6 @@ video {
     opacity: 1;
     background: none;
     border: none;
-    padding: 0.7rem;
     max-width: 4vw;
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.3s ease-in-out;
