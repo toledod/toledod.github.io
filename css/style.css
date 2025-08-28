@@ -584,7 +584,7 @@ video {
 
 @media (max-width: 28vw) {
     .viewer {
-        flex-direction: column;
+        flex-direction: row;
     }
 
      .prevnextButtons {
