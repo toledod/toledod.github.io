@@ -15,7 +15,9 @@ const imageData = [
     {src: "../images/2025summer/rainyWalk3.jpg", title: "walk in the rain (3)"
     , description: "these were taken on a walk with my family as it started raining"},
     {src: "../images/2025summer/yard.jpg", title: "in my yard"
-    , description: "now that I am back home, my yard will be my main studio. Can't wait to see what I can do here."}
+    , description: "now that I am back home, my yard will be my main studio. Can't wait to see what I can do here."},
+    {src: "../images/2025summer/carniceria.jpg", title: "carniceria"
+    , description: "Such a reoccuring sight, glad I took a photo."}
 ];
 
 // Get the index from the URL
