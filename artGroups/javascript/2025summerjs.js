@@ -35,7 +35,7 @@ document.getElementById("prev").onclick = () => navigate(index - 1);
 function navigate(newIndex) {
     if (newIndex >= imageData.length) newIndex = 0; // Wrap around to first image
     if (newIndex < 0) newIndex = imageData.length - 1; // Wrap around to last image
-    window.location.href = `viewerSummer.html?index=${newIndex}`;
+    window.location.href = `viewerSummer2025.html?index=${newIndex}`;
 }
 
 
